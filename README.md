@@ -15,5 +15,6 @@ instructions
 1. zero() ===> set all elements to zero
 2. resize(int row, int col)  ===> change the row and column then set all elements to zero
 
-complex support 
+complex support  
+
 complex<T> complexExample(T read, T img)
