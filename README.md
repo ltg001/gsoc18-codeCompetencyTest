@@ -17,4 +17,4 @@ instructions
 
 complex support  
 
-complex<T> complexExample(T read, T img)
+complex<T> complexExample(T real, T img)
