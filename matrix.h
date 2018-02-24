@@ -124,15 +124,9 @@ void matrix<T>::zero()
 template <typename T>
 matrix<T> matrix<T>::operator + (const matrix<T> &rhs)
 {
-    cout << "a" << endl ;
-    cout << rhs.data.size() << " " << rhs.data[0].size() << endl ;
-
     if(row != rhs.row || col != rhs.col)
           std::cerr << "the dimension is not the same" << '\n';
     matrix<T> matrixTemp(rhs.data.size(), rhs.data[0].size());
-
-    cout << matrixTemp.data.size() << " " << matrixTemp.data[0].size() << endl;
-
     for(int i = 0; i < rhs.data.size(); i++)
         for(int j = 0; j < rhs.data[0].size(); j++)
             matrixTemp.data[i][j] = this->data[i][j] + rhs.data[i][j];
