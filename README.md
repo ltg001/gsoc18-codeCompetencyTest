@@ -1,5 +1,6 @@
 # gsoc18-codeCompetencyTest
-##A simple instruction to matrix.h
+## A simple instruction to matrix.h  
+
 ```file included : <vector> <iostream> <cmath> <complex.h>```
 
 class matrix
