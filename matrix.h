@@ -47,7 +47,7 @@ public:
     void resize(int row, int col);
 };
 /*----------------------------------------------------*/
-IMPLEMENT
+//IMPLEMENT
 /*----------------------------------------------------*/
 template <typename T>
 istream & operator >> (istream &is, matrix<T> &obj)
